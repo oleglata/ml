@@ -1,4 +1,6 @@
 
+
+import pandas as pd
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 df = pd.read_csv('indians-diabetes.csv', names=names)
 
